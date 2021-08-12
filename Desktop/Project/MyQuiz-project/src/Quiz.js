@@ -53,7 +53,7 @@ const Quiz = (props) => {
         }
       })}
     </QuizContainer>
-  );
+  )
 };
 
 const QuizContainer = styled.div`
