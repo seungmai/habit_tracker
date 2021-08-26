@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <!--구분선-->
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/cardview_image"
+                    android:layout_width="50dp"
+                    android:layout_height="55dp"
+                    app:srcCompat="@drawable/logo2"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/tv_servNm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#46B4EB"
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:layout_centerInParent="true"
+        android:background="#e3e3e3" />
+
+
+
+</LinearLayout>

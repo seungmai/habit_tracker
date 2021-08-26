@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "425077450748",
+    "firebase_url": "https://androidpromramming.firebaseio.com",
+    "project_id": "androidpromramming",
+    "storage_bucket": "androidpromramming.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425077450748:android:bcca737b13b9d360b9f479",
+        "android_client_info": {
+          "package_name": "com.km.membermanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425077450748-lljbp5595t46araq34oveaitkr5k6dec.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQQL2oyRZASubM6uCy-zwB__SsgC0vYsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425077450748-lljbp5595t46araq34oveaitkr5k6dec.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
